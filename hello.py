@@ -1,6 +1,7 @@
 from dotenv import load_dotenv
 from google import genai
 import os
+from transformers import AutoModelForSpeechSeq2Seq, AutoProcessor, pipeline
 
 load_dotenv()
 
