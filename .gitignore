@@ -1,2 +1,13 @@
 .env
-.venv
+.venv# Devenv
+.devenv*
+devenv.local.nix
+*.wav
+audio/
+realtimesst.log
+
+# direnv
+.direnv
+
+# pre-commit
+.pre-commit-config.yaml
